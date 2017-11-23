@@ -22,7 +22,7 @@ class Koltest(unittest.TestCase):
 
 	def test_get_turbulence_sigma(self):
 		instance = Flight()
-		#self.assertEuqals(instance.turbulence_sigma,2)
+		self.assertEuqals(instance.turbulence_sigma,2)
 	
 	def test_get_correction_fraction_after_init(self):
 		pass
